@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-n8^@1$ll9wyo)$h5h+5xq-a7a!vnn&@5(gi#!3*9#t@=nqc&al
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['arunsblogcom-production.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -127,8 +127,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR /'media'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
-CSRF_TRUSTED_ORIGINS = ['https://arunsblogcom-production.up.railway.app']
 
 
 #Django jet themes

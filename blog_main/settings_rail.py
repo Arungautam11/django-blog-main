@@ -3,7 +3,9 @@ from blog_main.settings import *
 from decouple import config
 import os
 
-SECRET_KEY = config('SECRET_KEY') 
+SECRET_KEY = config('SECRET_KEY')
+
+DEBUG = False
 
 ALLOWED_HOSTS = ['django-blog-main-production.up.railway.app', '127.0.0.1']
 

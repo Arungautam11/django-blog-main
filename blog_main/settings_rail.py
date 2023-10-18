@@ -6,6 +6,8 @@ SECRET_KEY = config('SECRET_KEY')
 
 ALLOWED_HOSTS = ['django-blog-main-production.up.railway.app', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = ['https://django-blog-main-production.up.railway.app']
+
 
 DATABASES = {
         'default': {
